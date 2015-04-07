@@ -8,7 +8,7 @@ function Get-KISEM {
     $host.ui.RawUI.WindowTitle = "KISEM"
 
     # run new process which will set windows positions
-    Start-Process PowerShell -ArgumentList "KISEM_SetPosition"
+    KISEM_SetPosition
 
     # navigate to working directory
     cd D:\studia\erlangen\sem5\KISEM\Praca;
